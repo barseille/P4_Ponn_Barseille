@@ -778,8 +778,8 @@ h4 {
     color: #F3976C!important;
 }
 
-.btn-atomic-tangerine {
-    background: #F3976C;
+.btn-atomic-tangerine { 
+    background: #97380C;
     color: #FFFFFF!important;
 }
 
@@ -822,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
