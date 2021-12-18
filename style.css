@@ -707,6 +707,7 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+   
 }
 
 h3 {
@@ -1040,3 +1041,16 @@ h4 {
         text-align: center;
     }
 }
+.lien-hidden{
+    visibility: hidden;
+}
+.img-responsive.portfolio-thumb{
+   
+    width:100%;
+}
+.row.row-no-gutters{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
