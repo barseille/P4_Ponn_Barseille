@@ -1056,3 +1056,7 @@ h4 {
 .col-sm-12{
     width:100%;
 }
+.col-sm-6 p{
+    font-size:1.5rem;
+   
+}

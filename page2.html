@@ -8,7 +8,10 @@
     />
     <meta
       name="description"
-      content="La Chouette agence crée des sites web adaptés à vos besoins. Site vitrine ou e-commerce, nous nous assurons que votre site aura un bon référencement SEO. Notre agence web à Lyon réalise ou refond votre site internet de l’intégration au suivi des indicateurs SEO. Contactez-nous."
+      content="La Chouette agence crée des sites web adaptés à vos besoins.
+	Site vitrine ou e-commerce, nous nous assurons que votre site aura un bon référencement SEO. 
+	Notre agence web à Lyon réalise ou refond votre site internet de l’intégration au suivi des indicateurs SEO. 
+	Contactez-nous."
     />
     <meta
       name="viewport"
@@ -26,7 +29,7 @@
     <script defer src="./js/blocs.min.js"></script>
     <script defer src="./js/jqBootstrapValidation.js"></script>
     <script defer src="./js/formHandler.js"></script>
-    <title>Contact | La chouette agence</title>
+    <title>Contact | La Chouette Agence</title>
 
     <!-- Analytics -->
 
@@ -43,9 +46,9 @@
               <a class="navbar-brand" href="index.html"
                 ><img
                   src="img/la-chouette-agence.png"
-                  alt="paris web design logo agence web meilleure agence"
-                  height="40"
-              /></a>
+                  alt="logo - La chouette agence"
+                />
+              </a>
 
               <button
                 id="nav-toggle"
@@ -53,26 +56,27 @@
                 class="ui-navbar-toggle navbar-toggle"
                 data-toggle="collapse"
                 data-target=".navbar-1"
+                aria-label="menu"
               >
-                <span class="sr-only">Toggle navigation</span
-                ><span class="icon-bar"></span><span class="icon-bar"></span
-                ><span class="icon-bar"></span>
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
               </button>
             </div>
+
             <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
               <ul class="site-navigation nav navbar-nav">
                 <li>
-                  <a href="index.html" title="accueil">Accueil</a>
+                  <a href="index.html">Accueil</a>
                 </li>
+
                 <li>
-                  <a href="index.html#bloc-2-services" title="nos métiers"
-                    >Nos métiers</a
-                  >
+                  <a href="index.html#bloc-2-services">Nos métiers</a>
                 </li>
+
                 <li>
-                  <a href="index.html#bloc-4-portfolio" title="nos projets"
-                    >Nos projets</a
-                  >
+                  <a href="index.html#bloc-4-portfolio">Nos projets</a>
                 </li>
               </ul>
             </div>
@@ -100,6 +104,7 @@
                 <h1 class="text-center hero-bloc-text tc-white">
                   Parlons web design !
                 </h1>
+
                 <p class="text-center mg-lg tc-white tight-width-whitespace">
                   Nous sommes ravis que vous souhaitiez collaborer avec notre
                   agence.<br />
@@ -118,10 +123,10 @@
             <div class="row">
               <div class="col-sm-6">
                 <form
+                  action="includes/form_1.php"
+                  method="post"
                   id="form_1"
                   novalidate
-                  success-msg="Your message has been sent."
-                  fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
                 >
                   <div class="form-group">
                     <label for="name"> Nom </label>
@@ -190,58 +195,80 @@
           </div>
         </section>
         <!-- bloc-7 END -->
-
-        <!-- ScrollToTop Button -->
-        <a
-          class="bloc-button btn btn-d scrollToTop"
-          onclick="scrollToTarget('1')"
-          ><span class="fa fa-chevron-up"></span
-        ></a>
-        <!-- ScrollToTop Button END-->
       </main>
 
+      <!-- ScrollToTop Button -->
+      <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"
+        ><span class="fa fa-chevron-up"></span
+      ></a>
+      <!-- ScrollToTop Button END-->
+
       <!-- Footer - bloc-8 -->
-      <div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+      <footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
         <div class="container bloc-sm">
           <div class="row">
             <div class="col-sm-12">
               <p class="text-center white">
                 La chouette agence - Agence web basée à Lyon.<br />
               </p>
+
               <div class="row row-no-gutters social">
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
-                      ><span class="fa fa-twitter icon-md"></span
+                    <a
+                      class="social"
+                      href="https://twitter.com/home?lang=fr"
+                      target="_blank"
+                    >
+                      <span class="lien-hidden">twitter</span>
+                      <span class="fa fa-twitter icon-md"></span
                     ></a>
                   </div>
                 </div>
+
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
+                    <a
+                      class="social"
+                      href="https://fr-fr.facebook.com/"
+                      target="_blank"
+                    >
+                      <span class="lien-hidden">facebook</span
                       ><span class="fa fa-facebook icon-md"></span
                     ></a>
                   </div>
                 </div>
+
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
-                      ><span class="fa fa-dribbble icon-md"></span
-                    ></a>
+                    <a
+                      class="social"
+                      href="https://dribbble.com/"
+                      target="_blank"
+                    >
+                      <span class="lien-hidden">dribbble</span
+                      ><span class="fa fa-dribbble icon-md"></span>
+                    </a>
                   </div>
                 </div>
+
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
-                      ><span class="fa fa-instagram icon-md"></span
-                    ></a>
+                    <a
+                      class="social"
+                      href="https://www.instagram.com/?hl=fr"
+                      target="_blank"
+                    >
+                      <span class="lien-hidden">instagram</span
+                      ><span class="fa fa-instagram icon-md"></span>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </footer>
       <!-- Footer - bloc-8 END -->
     </div>
     <!-- Principal conteneur END -->
