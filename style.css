@@ -779,6 +779,7 @@ h4 {
 
 .tc-white {
   color: #ffffff !important;
+ 
 }
 
 .btn-atomic-tangerine {
@@ -893,17 +894,7 @@ h4 {
     overflow-x: hidden;
     position: relative;
   }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  #disqus_thread {
-    padding-left: 50px !important;
-    padding-right: 50px !important;
-  }
+
   .b-parallax {
     background-attachment: scroll;
   }
@@ -1052,7 +1043,16 @@ h4 {
 .col-sm-12 img {
   width: 150px;
   height: 150px;
+  padding :0;
 }
 .col-sm-6 p {
   font-size: 1.5rem;
+}
+@media (max-width:767px){
+  .navbar-brand img{
+    width:18rem;
+  }
+}
+h2{
+  font-size:20px;
 }
